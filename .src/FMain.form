@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,54)
+  { LResult Label
+    MoveScaled(10,19,44,22)
+    Font = Font["+4"]
+    Alignment = Align.Center
+    Border = Border.Plain
+  }
+  { TBHora TextBox
+    MoveScaled(20,11,24,4)
+  }
+  { LFactura Label
+    MoveScaled(17,5,30,4)
+    Alignment = Align.Center
+    Text = ("Introduzca la hora:")
+  }
+  { BSaludar Button
+    MoveScaled(24,45,16,4)
+    Text = ("Saludar")
+  }
+}

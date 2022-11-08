@@ -1,0 +1,18 @@
+' Gambas class file
+
+
+Public Sub BSaludar_Click()
+  Dim hora As Byte
+  hora = TBHora.Text
+  
+  If (hora >= 6 And hora < 12) Then 
+    LResult.Text = "Buenos días"
+  Else If (hora >= 13 And hora < 20) 
+    LResult.Text = "Buenas tardes"
+  Else If (hora > 24)
+    LResult.Text = "Ese número no es una hora"
+  Else
+    LResult.Text = "Buenas noches"
+  Endif
+
+End
